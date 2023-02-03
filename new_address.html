@@ -2,24 +2,16 @@
 <html lang="en">
 
 <head>
-  <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!-- Amazon FavIcon -->
   <link rel="icon" href="img/amazon_favicon.ico" image="image/gif" size="16x16">
-  <!-- Bootstrap CSS
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> -->
-
-  <!-- Font Awesome CSS CDN -->
+  
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
     integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
     crossorigin="anonymous" />
-  <!-- Bootstrap CSS Local -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  <!-- Drawer CSS File -->
   <link rel="stylesheet" href="css/bootstrap-drawer.min.css">
-  <!-- Custom CSS -->
   <link rel="stylesheet" href="css/custom.css">
   <title>Update-Address</title>
 </head>
@@ -28,21 +20,18 @@
   <!-- Navbar Starts -->
   <!-- Navbar Ends -->
 
-  <!-- New Address Form Starts -->
   <div class="container mt-5 mb-5">
-    <!-- URL Breadcrumb Starts -->
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb bg-transparent ml-n3">
         <li class="breadcrumb-item"><a href="seller_info.html">Your Account</a></li>
         <li class="breadcrumb-item"><a href="seller_address.html">Your Addresses</a></li>
         <li class="breadcrumb-item active text-danger" aria-current="page">New Address</li>
       </ol>
-    </nav> <!-- URL Breadcrumb Ends -->
+    </nav> 
 
     <h3 class="font-weight-bold">Add a new address</h3>
     <p class="font-weight-bold">Or pick up your packages at your convenience from our self-service locations.</p>
 
-    <!-- New Address Form Starts -->
     <form class="mx-auto font-weight-bold needs-validation" autocomplete="off" method="post" novalidate>
       <div class="form-group">
         <label for="country">Country/Region</label>
@@ -181,10 +170,9 @@
       <button type="submit" class="btn btn-warning shadow rounded">Add address</button>
     </form>
 
-  </div> <!-- New Address Form Starts -->
+  </div> 
 
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
     crossorigin="anonymous"></script>
@@ -194,19 +182,13 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
     integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
     crossorigin="anonymous"></script>
-  <!-- Drawer JS File -->
   <script src="js/bootstrap-drawer.min.js"></script>
-  <!-- Custom JavaScript -->
   <script src="js/custom.js"></script>
 
   <script>
-    // Example starter JavaScript for disabling form submissions if there are invalid fields
     (function () {
-      'use strict';
       window.addEventListener('load', function () {
-        // Fetch all the forms we want to apply custom Bootstrap validation styles to
         var forms = document.getElementsByClassName('needs-validation');
-        // Loop over them and prevent submission
         var validation = Array.prototype.filter.call(forms, function (form) {
           form.addEventListener('submit', function (event) {
             if (form.checkValidity() === false) {
